@@ -1,0 +1,89 @@
+.container {
+    padding: 2rem 0rem;
+}
+.modal{
+    padding: 2rem 0rem;
+}
+.selectAll{
+
+}
+h4 {
+    margin: 2rem 0rem 1rem;
+}
+th{
+    color: #8e8e8e;
+    font-size: 12px;
+
+}
+#addBtn{
+    margin-bottom: 20px;
+}
+
+td, th {
+    vertical-align: middle;
+    justify-content: center;
+}
+.modal-content{
+    position: absolute;
+    vertical-align: center;
+
+}
+.modal-dialog{
+    max-width: 750px;
+}
+
+#pop-up-modal{
+
+    width: 100%;
+    background: transparent;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+#pop-up-modal .title{
+    font-size: 25px;
+    font-weight: 500;
+}
+#pop-up-modal form .user-details
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 5px;
+    width: 250px;
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    color: #5b5b5b;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: black;
+}
+
+#cancel{
+    float: right;
+    margin-right: 10px;
+}
+#adding {
+    float: right;
+}
+#reset{
+    float: left;
+    text-decoration: none;
+}
