@@ -87,3 +87,14 @@ form .user-details .input-box{
     float: left;
     text-decoration: none;
 }
+#cancelT{
+    float: right;
+    margin-right: 10px;
+}
+#addingT {
+    float: right;
+}
+#resetT{
+    float: left;
+    text-decoration: none;
+}
